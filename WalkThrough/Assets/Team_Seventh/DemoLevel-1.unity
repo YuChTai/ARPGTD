@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 38599456}
   - component: {fileID: 38599455}
   - component: {fileID: 38599454}
-  m_Layer: 7
+  m_Layer: 3
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -561,7 +561,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1477828672}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.25, z: 0}
+  m_LocalPosition: {x: 0, y: 1.403, z: -0.107}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 179796678}
@@ -694,12 +694,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mLookAtPoint: {fileID: 1477828673}
-  mFollowDistance: 2
-  mMixFollowDistance: 5
-  mMinFollowDistance: 1
+  mFollowDistance: 3
+  mMaxFollowDistance: 6
+  mMinFollowDistance: 2
   mVerticalLimitUp: 50
   mVerticalLimitDown: 50
   rotateSensitivity: 6
+  mCheckLayer:
+    serializedVersion: 2
+    m_Bits: 72
 --- !u!1001 &1622198996
 PrefabInstance:
   m_ObjectHideFlags: 0
