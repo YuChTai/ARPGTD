@@ -8,9 +8,9 @@ public class TPSccc : MonoBehaviour
     public Transform mLookAtPoint;
 
 
-    public float mFollowDistance;
-    public float mMaxFollowDistance;
-    public float mMinFollowDistance;
+    public float mFollowDistance=3.0f;
+    public float mMaxFollowDistance = 5.0f;
+    public float mMinFollowDistance = 2.0f;
 
     
 
@@ -19,11 +19,11 @@ public class TPSccc : MonoBehaviour
 
 
     private float mVerticalDegree;
-    public float mVerticalLimitUp;
-    public float mVerticalLimitDown;
+    public float mVerticalLimitUp = 50.0f;
+    public float mVerticalLimitDown = 50.0f;
 
     private Vector3 mHorizontalV;
-    public float rotateSensitivity;
+    public float rotateSensitivity=6.0f;
     public LayerMask mCheckLayer;
     void Start()
     {

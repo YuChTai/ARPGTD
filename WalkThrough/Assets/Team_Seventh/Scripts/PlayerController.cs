@@ -43,6 +43,7 @@ public class PlayerController : CharacterBase {
         Vector3 xMovm = tpsCamDirX * xSig;
 
         LastMovPos = zMovm + xMovm;
+        LastMovPos+=Physics.gravity;
 
         LastMovPos.Normalize();
     }
